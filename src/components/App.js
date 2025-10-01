@@ -9,7 +9,7 @@ const App = () => {
     conditions:""
   });
   useEffect(()=>{
-    setWeather({temperature:20,conditions:"Sunny"});
+    setWeather({temperature:25,conditions:"Sunny"});
   },[])
   return (
     <div>
