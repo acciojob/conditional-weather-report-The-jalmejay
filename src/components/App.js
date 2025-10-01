@@ -1,11 +1,11 @@
 
 import React,{useState} from "react";
 import './../styles/App.css';
-import WeatherDisplay from "./weatherDisplay";
+import WeatherDisplay from "./components/WeatherDisplay";
 const App = () => {
   const [weather]=useState({
     temperature:20,
-    conditions:"sunny"
+    conditions:"Sunny"
   })
   return (
     <div>
