@@ -14,7 +14,7 @@ const App = () => {
   return (
     <div>
         {/* Do not remove the main div */}
-      <WeatherDisplay weather={weather}/>
+      <WeatherDisplay weatherData={weather}/>
     </div>
   )
 }
